@@ -164,21 +164,6 @@
       }
     },
 
-    "signals": {
-      "cdn": "3rdparty",
-      "cwd": "node_modules/signals/dist",
-      "debug": {
-        "src":  "signals.js",
-        "path": "libs/js-signals/signals.js",
-        "cdnPath": "js-signals/signals"
-      },
-      "release": {
-        "src": "signals.min.js",
-        "path": "libs/js-signals/signals.min.js",
-        "cdnPath": "js-signals/signals.min"
-      }
-    },
-
     "touchr": {
       "cdn": "3rdparty",
       "cwd": "node_modules/@oracle/oraclejet/dist/js/libs/touchr",
@@ -191,6 +176,21 @@
         "src": "touchr.js",
         "path": "libs/touchr/touchr.js",
         "cdnPath": "touchr/touchr"
+      }
+    },
+
+    "signals": {
+      "cdn": "3rdparty",
+      "cwd": "node_modules/signals/dist",
+      "debug": {
+        "src":  "signals.js",
+        "path": "libs/js-signals/signals.js",
+        "cdnPath": "js-signals/signals"
+      },
+      "release": {
+        "src": "signals.min.js",
+        "path": "libs/js-signals/signals.min.js",
+        "cdnPath": "js-signals/signals.min"
       }
     },
 
